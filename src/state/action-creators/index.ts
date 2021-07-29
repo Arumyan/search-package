@@ -17,7 +17,7 @@ export const searchRepositories = (term: string) => {
       })
 
       const names = data.objects.map((result: any) => {
-        return result.packadje.name
+        return result.package.name
       })
 
       dispatch({
